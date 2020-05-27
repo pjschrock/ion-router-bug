@@ -6,8 +6,7 @@ interface ContainerProps { }
 const ExploreContainer: React.FC<ContainerProps> = () => {
   return (
     <div className="container">
-      <strong>Ready to create an app?</strong>
-      <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+      <strong>Check the IonRouterOutlet using inspector in Components and you will see the new route will be added every time you click the button but they don't work when you are redirected to them.</strong>
     </div>
   );
 };
